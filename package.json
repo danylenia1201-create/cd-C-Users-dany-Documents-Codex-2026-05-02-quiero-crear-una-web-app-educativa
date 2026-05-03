@@ -4,7 +4,6 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "postinstall": "node scripts/patch-vite-windows.cjs",
     "dev": "vite --host 0.0.0.0",
     "build": "node scripts/patch-vite-windows.cjs && tsc -p tsconfig.json && vite build",
     "preview": "vite preview --host 0.0.0.0"
